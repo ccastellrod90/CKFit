@@ -1,0 +1,18 @@
+# Gradle / Android
+.gradle/
+build/
+/local.properties
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+
+# Modelo de Vosk (se descarga aparte, ver README; ~39 MB)
+/models/src/main/assets/model-es/*
+!/models/src/main/assets/model-es/.gitkeep

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">CKFit</string>
+
+    <!-- Acciones comunes -->
+    <string name="action_back">Volver</string>
+    <string name="action_start_workout">Iniciar entrenamiento</string>
+    <string name="action_train_other_session">Entrenar otra sesión</string>
+    <string name="action_choose_other_session">Elegir otra sesión</string>
+    <string name="action_skip_session">Saltar sesión</string>
+    <string name="action_undo_skip">Deshacer salto</string>
+    <string name="action_choose">Elegir</string>
+    <string name="action_ok">Aceptar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_create">Crear</string>
+    <string name="action_undo">Deshacer</string>
+    <string name="action_more">Más opciones</string>
+    <string name="action_remove">Quitar</string>
+    <string name="action_reorder">Arrastrar para reordenar</string>
+    <string name="coming_soon">Próximamente</string>
+
+    <!-- Títulos de pantallas -->
+    <string name="today_title">Rutina de hoy</string>
+    <string name="routines_title">Configuración de rutinas</string>
+    <string name="progress_title">Progresión</string>
+    <string name="settings_title">Ajustes</string>
+
+    <string-array name="day_names">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <!-- Home -->
+    <string name="home_greeting">Hola</string>
+    <string name="home_greeting_name">Hola, %1$s</string>
+    <string-array name="motivational_phrases">
+        <item>A darle duro.</item>
+        <item>Las pesas no se levantan solas.</item>
+        <item>El sofá puede esperar. Tú no.</item>
+        <item>Hoy se suda, mañana se presume.</item>
+        <item>Si fuera fácil, se llamaría siesta.</item>
+        <item>Una serie más y te ganas el postre. Bueno, media.</item>
+        <item>Tus músculos mandan saludos. Y quejas.</item>
+        <item>Menos excusas, más repeticiones.</item>
+        <item>Modo bestia: activado.</item>
+        <item>Hoy no se negocia con la pereza.</item>
+        <item>Respira, aprieta y no mires el reloj.</item>
+        <item>El dolor de mañana es el orgullo de pasado mañana.</item>
+        <item>Hidrátate, que hoy se viene fuerte.</item>
+        <item>Nadie se arrepiente de haber entrenado. De las sentadillas búlgaras, quizás.</item>
+        <item>Tranqui, el descanso también cuenta. Después.</item>
+        <item>La constancia le gana al talento que se queda en casa.</item>
+        <item>Hoy la gravedad pierde.</item>
+        <item>Calienta bien, que ya no tienes 18.</item>
+    </string-array>
+    <string name="home_week_progress_label">Progreso semanal</string>
+    <string name="home_week_pending">Pendientes</string>
+    <string name="home_week_optional">Opcionales</string>
+    <string name="home_see_week">Ver semana</string>
+    <string name="home_today_label">Rutina de hoy</string>
+    <string name="home_today_optional">Opcional</string>
+    <string name="home_today_summary">%1$s · ≈ %2$s</string>
+    <string name="home_today_rest_day">Hoy toca descanso</string>
+    <string name="home_today_nothing_pending">No quedan sesiones pendientes esta semana</string>
+    <string name="home_no_active_plan">No hay ningún plan activo</string>
+    <string name="home_routines_label">Configuración de rutinas</string>
+    <string name="home_routines_days">%1$s · %2$s</string>
+    <string name="home_progress_label">Progresión</string>
+    <string name="home_progress_no_weigh_ins">Sin pesajes todavía</string>
+    <string name="home_progress_last_weigh_in">Último pesaje: %1$s</string>
+    <string name="home_progress_change_30d_label">Variación en 30 días</string>
+    <string name="home_progress_no_change">Sin pesajes anteriores para comparar</string>
+    <string name="fraction">%1$d/%2$d</string>
+
+    <!-- Semana -->
+    <string name="week_sheet_title">Esta semana</string>
+    <string name="week_sheet_hint">Toca una sesión pendiente para hacerla la siguiente.</string>
+    <string name="week_suggested">Siguiente</string>
+    <string name="week_day_removed">Día eliminado del plan</string>
+    <string name="week_skip_reason">Motivo: %1$s</string>
+    <string name="skip_session_title">Saltar sesión</string>
+    <string name="skip_session_reason">Motivo (opcional)</string>
+    <string name="planned_status_pending">Pendiente</string>
+    <string name="planned_status_done">Cumplida</string>
+    <string name="planned_status_skipped">Saltada</string>
+    <string name="planned_status_missed">Perdida</string>
+
+    <plurals name="exercise_count">
+        <item quantity="one">%d ejercicio</item>
+        <item quantity="many">%d ejercicios</item>
+        <item quantity="other">%d ejercicios</item>
+    </plurals>
+    <plurals name="session_count">
+        <item quantity="one">%d sesión</item>
+        <item quantity="many">%d sesiones</item>
+        <item quantity="other">%d sesiones</item>
+    </plurals>
+    <plurals name="training_day_count">
+        <item quantity="one">%d día de entreno</item>
+        <item quantity="many">%d días de entreno</item>
+        <item quantity="other">%d días de entreno</item>
+    </plurals>
+    <plurals name="optional_day_count">
+        <item quantity="one">%d opcional</item>
+        <item quantity="many">%d opcionales</item>
+        <item quantity="other">%d opcionales</item>
+    </plurals>
+
+    <!-- Planes y días -->
+    <string name="routines_new">Nuevo plan</string>
+    <string name="routines_name_label">Nombre del plan</string>
+    <string name="routines_rename">Renombrar</string>
+    <string name="routines_duplicate">Duplicar</string>
+    <string name="routines_copy_name">%1$s (copia)</string>
+    <string name="routines_activate">Activar</string>
+    <string name="routines_active">Activo</string>
+    <string name="routines_active_hint">Es el plan de la semana</string>
+    <string name="day_rest_title">Descanso</string>
+    <string name="day_rest_pill">Descanso</string>
+    <string name="day_title_label">Título del día</string>
+    <string name="day_color_label">Color</string>
+    <string name="day_rest_label">Día de descanso</string>
+    <string name="day_optional_label">Opcional</string>
+    <string name="day_rest_hint">Día de descanso: no entra en la semana</string>
+    <string name="day_exercises_label">Ejercicios</string>
+    <string name="day_add_exercise">Agregar ejercicio</string>
+    <string name="day_exercise_removed">%1$s quitado del día</string>
+
+    <!-- Catálogo -->
+    <string name="picker_search_hint">Buscar ejercicio o grupo</string>
+    <string name="picker_create">Crear «%1$s»</string>
+    <string name="picker_create_new">Crear ejercicio nuevo</string>
+    <string name="new_exercise_title">Nuevo ejercicio</string>
+    <string name="new_exercise_name">Nombre</string>
+    <string name="new_exercise_group">Grupo muscular</string>
+    <string name="new_exercise_group_default">Otro</string>
+    <string name="measure_reps">Repeticiones</string>
+    <string name="measure_time">Tiempo</string>
+    <string name="per_side">Por lado</string>
+    <string name="per_side_short">por lado</string>
+    <string name="uses_weight">Lleva peso</string>
+    <string name="editor_weight_shared_hint">El peso es del ejercicio: es el mismo en todos los días y planes donde aparece.</string>
+
+    <!-- Tipo de carga -->
+    <string name="load_strength">Fuerza (F)</string>
+    <string name="load_volume">Volumen (V)</string>
+    <string name="load_core">Core</string>
+    <string name="load_cardio">Cardio</string>
+    <string name="load_other">Otro</string>
+    <string name="load_short_strength">F</string>
+    <string name="load_short_volume">V</string>
+    <string name="load_short_core">Core</string>
+    <string name="load_short_cardio">Cardio</string>
+    <string name="load_short_other">Otro</string>
+    <string name="intensity_mark" translatable="false">◆</string>
+
+    <!-- Editor de ejercicio -->
+    <string name="editor_title_new">Agregar ejercicio</string>
+    <string name="editor_title_edit">Editar ejercicio</string>
+    <string name="editor_load_type">Tipo de carga</string>
+    <string name="editor_load_type_hint">Al elegirlo se rellenan reps y descanso por defecto.</string>
+    <string name="editor_measure">Medida</string>
+    <plurals name="editor_shared_exercise">
+        <item quantity="one">Tipo y «por lado» también cambian en %d día más que usa este ejercicio.</item>
+        <item quantity="many">Tipo y «por lado» también cambian en %d días más que usan este ejercicio.</item>
+        <item quantity="other">Tipo y «por lado» también cambian en %d días más que usan este ejercicio.</item>
+    </plurals>
+    <string name="editor_prescription">Series y descanso</string>
+    <string name="editor_sets">Series</string>
+    <string name="editor_reps_min">Reps mín.</string>
+    <string name="editor_reps_max">Reps máx.</string>
+    <string name="editor_duration">Duración</string>
+    <string name="editor_rest">Descanso</string>
+    <string name="editor_rest_max">Descanso máx. (opcional)</string>
+    <string name="editor_weight_section">Peso</string>
+    <string name="editor_weight">Peso actual</string>
+    <string name="editor_weight_step">Paso de peso</string>
+    <string name="editor_extra">Intensidad y notas</string>
+    <string name="editor_intensity">◆ Serie de intensidad</string>
+    <string name="editor_intensity_note">Nota de intensidad</string>
+    <string name="editor_notes">Notas</string>
+    <string name="editor_remove_from_day">Quitar del día</string>
+    <string name="editor_error_sets">Entre 1 y 20</string>
+    <string name="editor_error_reps">Reps: mínimo ≤ máximo, entre 1 y 100</string>
+    <string name="editor_error_duration">Indica los segundos</string>
+    <string name="editor_error_rest">Descanso entre 0 y 900 s; el máximo no puede ser menor</string>
+    <string name="editor_error_weight">Peso ≥ 0 y paso mayor que 0</string>
+
+    <!-- Rutina de hoy -->
+    <string name="today_no_session">No hay ningún entrenamiento en curso.</string>
+    <string name="today_time_summary">≈ %1$s en total · quedan %2$s</string>
+    <string name="today_sets_done">%1$d/%2$d series</string>
+    <string name="today_exercise_removed">Ejercicio quitado del plan</string>
+    <string name="today_skip_exercise">Saltar ejercicio</string>
+    <string name="today_mark_pending">Volver a «Por hacer»</string>
+    <string name="today_switch_hint">La sesión actual vuelve a quedar pendiente; las series ya hechas se guardan.</string>
+    <string name="today_extra_session">Extra</string>
+    <string name="exercise_status_pending">Por hacer</string>
+    <string name="exercise_status_in_progress">En curso</string>
+    <string name="exercise_status_done">Cumplido</string>
+    <string name="exercise_status_skipped">Saltado</string>
+    <string name="action_finish_workout">Terminar entrenamiento</string>
+    <string name="finish_workout_title">¿Terminar entrenamiento?</string>
+    <string name="finish_workout_text_done">Buen trabajo. La sesión queda registrada como cumplida.</string>
+    <string name="finish_workout_text_pending">Lo que falta se marcará como saltado. La sesión cuenta como hecha.</string>
+    <string name="week_extra_title">Entrenar otra sesión</string>
+    <string name="week_extra_hint">Sesión extra: se registra, pero no cuenta en la semana.</string>
+    <string name="action_train">Entrenar</string>
+
+    <!-- Modo ejercicio -->
+    <string name="focus_set_of">Serie %1$d de %2$d</string>
+    <string name="focus_set_number">Serie %1$d</string>
+    <string name="focus_target_reps">%1$s reps</string>
+    <string name="focus_waiting">Esperando</string>
+    <string name="focus_get_ready">Prepárate</string>
+    <string name="focus_working">En serie</string>
+    <string name="focus_working_left">En serie · lado izquierdo</string>
+    <string name="focus_working_right">En serie · lado derecho</string>
+    <string name="focus_switch_side">Cambio de lado</string>
+    <string name="focus_resting">Descanso</string>
+    <string name="focus_next_set">Después: serie %1$d</string>
+    <string name="focus_paused">En pausa</string>
+    <string name="focus_exercise_done">Ejercicio cumplido</string>
+    <string name="focus_next_exercise">Siguiente: %1$s</string>
+    <string name="focus_all_done">No quedan ejercicios por hacer en esta sesión.</string>
+    <string name="focus_no_weight">Sin peso</string>
+    <string name="focus_weight_title">Peso de trabajo</string>
+    <string name="action_start_set">Empezar</string>
+    <string name="action_done_set">Listo</string>
+    <string name="action_skip">Saltar</string>
+    <string name="action_add_rest">+%1$d s</string>
+    <string name="action_pause">Pausa</string>
+    <string name="action_resume">Seguir</string>
+
+    <string name="action_view_routine">Ver rutina</string>
+    <string name="today_start_exercise">Comenzar: %1$s</string>
+    <string name="today_continue_exercise">Continuar: %1$s</string>
+    <string name="focus_choose_other">Elegir otro ejercicio</string>
+    <string name="focus_end_exercise">Terminar ejercicio</string>
+    <string name="focus_end_exercise_title">¿Terminar el ejercicio?</string>
+    <string name="focus_end_exercise_text">Se guardan las series ya hechas de %1$s. Si hay una a medias, no cuenta.</string>
+
+    <!-- Aviso al bajar del peso de la vez anterior. {g} = o / a / @ según el sexo del perfil. -->
+    <string name="gender_ending_male">o</string>
+    <string name="gender_ending_female">a</string>
+    <string name="gender_ending_neutral">@</string>
+    <string-array name="weight_down_phrases">
+        <item>No sea ridícul{g}, ¿en serio vas a hacer con eso?</item>
+        <item>¿Menos que la última vez? Tus músculos están decepcionados.</item>
+        <item>Bajar el peso no es un plan, es una excusa con mancuernas.</item>
+        <item>¿Día de descanso disfrazado de entrenamiento?</item>
+        <item>Con ese peso ni el sofá se entera.</item>
+        <item>Mi abuela levanta más… y tiene 90.</item>
+    </string-array>
+
+    <!-- Voz -->
+    <string name="voice_help_title">Comandos de voz</string>
+    <string name="voice_help_intro">Durante el entrenamiento puedes decir cualquiera de estas palabras o frases. No hace falta nada antes ni después.</string>
+    <string name="voice_help_tips">Habla claro y a un volumen normal. Mientras la app habla no escucha: espera a que termine el aviso. Si no te entiende, los botones siempre funcionan.</string>
+    <string name="voice_help_open">Ver comandos de voz</string>
+    <string name="voice_action_start">Empezar la serie</string>
+    <string name="voice_action_done">Terminar la serie</string>
+    <string name="voice_action_next">Ir al siguiente ejercicio (con el ejercicio cumplido)</string>
+    <string name="voice_action_skip">Saltar (el descanso o la serie)</string>
+    <string name="voice_action_more_rest">+15 s de descanso</string>
+    <string name="voice_action_pause">Pausa</string>
+    <string name="voice_action_resume">Seguir tras la pausa</string>
+    <string name="voice_listening">Escuchando comandos</string>
+    <string name="voice_off">Micrófono apagado</string>
+    <string name="voice_loading">Preparando el reconocimiento de voz…</string>
+    <string name="voice_error">No se pudo iniciar el micrófono.</string>
+    <string name="voice_no_permission">Sin permiso de micrófono.</string>
+
+    <!-- Notificación -->
+    <string name="notification_channel_workout">Entrenamiento en curso</string>
+    <string name="notification_channel_workout_description">Estado de la serie y del descanso mientras entrenas.</string>
+    <string name="notification_workout_title">Entrenamiento en curso</string>
+    <string name="notification_waiting">Esperando la serie %1$d de %2$d</string>
+    <string name="notification_working">Serie %1$d de %2$d</string>
+    <string name="notification_resting">Descanso · después, serie %1$d de %2$d</string>
+    <string name="notification_done_next">Ejercicio cumplido · siguiente: %1$s</string>
+
+    <!-- Formatos -->
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours_minutes">%1$d h %2$d min</string>
+    <string name="prescription_sets_target">%1$d × %2$s</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="minutes_value">%1$d min</string>
+    <string name="weight_value">%1$.1f %2$s</string>
+    <string name="weight_change_value">%1$+.1f %2$s</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_lb">lb</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_seconds">s</string>
+
+    <!-- Ajustes: perfil -->
+    <string name="settings_profile_section">Perfil</string>
+    <string name="settings_name_label">Nombre</string>
+    <string name="settings_name_hint">Para el saludo de la pantalla principal</string>
+    <string name="settings_name_from_phone">Tomar del teléfono</string>
+    <string name="settings_name_not_found">El teléfono no tiene un nombre en la tarjeta «Yo»; escríbelo a mano.</string>
+
+    <!-- Ajustes: entrenamiento -->
+    <string name="settings_training_section">Entrenamiento</string>
+    <string name="settings_next_set_label">Siguiente serie</string>
+    <string name="mode_auto">Automático</string>
+    <string name="mode_manual">Manual</string>
+    <string name="settings_next_set_auto_hint">Al terminar el descanso, la siguiente serie arranca sola.</string>
+    <string name="settings_next_set_manual_hint">Al terminar el descanso suena un aviso y espera a que pulses Empezar.</string>
+    <string name="settings_switch_side_label">Cambio de lado</string>
+    <!-- Ajustes: voz, audio, cuentas atrás, batería -->
+    <string name="settings_voice_section">Voz</string>
+    <string name="settings_voice_commands">Comandos de voz</string>
+    <string name="settings_voice_commands_hint">Di «empezar», «listo», «saltar», «pausa»… durante el entrenamiento.</string>
+    <string name="settings_mic_test">Probar micrófono</string>
+    <string name="settings_mic_test_stop">Detener prueba</string>
+    <string name="settings_mic_heard">Oído: %1$s</string>
+    <string name="settings_mic_test_busy">La prueba de micrófono no está disponible con un entrenamiento en marcha.</string>
+    <string name="settings_audio_section">Audio</string>
+    <string name="settings_tts">Avisos hablados</string>
+    <string name="settings_volume">Volumen de la voz: %1$d %%</string>
+    <string name="settings_test_voice">Probar voz</string>
+    <string name="settings_voice_sample">Prensa, cuatro series de seis a ocho</string>
+    <string name="settings_tts_missing">No hay una voz en español instalada en el teléfono.</string>
+    <string name="settings_tts_install">Instalar voz en español</string>
+    <string name="settings_beeps">Bips</string>
+    <string name="settings_ducking">Bajar la música al hablar</string>
+    <string name="settings_ducking_hint">La música baja mientras suena el aviso y luego vuelve.</string>
+    <string name="settings_vibration">Vibración</string>
+    <string name="settings_countdown_section">Cuentas atrás</string>
+    <string name="settings_rest_countdown">Final del descanso desde</string>
+    <string name="settings_pre_countdown">Previa a ejercicios por tiempo</string>
+    <string name="settings_halfway_cue">Aviso a mitad de serie</string>
+    <string name="settings_halfway_cue_hint">En ejercicios por tiempo, dice cuánto queda al llegar a la mitad.</string>
+    <string name="settings_battery_section">Batería</string>
+    <string name="settings_battery_ok">CKFit no está limitada por la optimización de batería.</string>
+    <string name="settings_battery_optimized">La optimización de batería puede cortar el entrenamiento con la pantalla apagada.</string>
+    <string name="settings_battery_request">Quitar la optimización</string>
+    <string name="settings_battery_vendor_hint">En Honor/Huawei revisa también Ajustes → Batería → Inicio de aplicaciones → CKFit: gestión manual con todo activado. En Xiaomi: Ahorro de batería → Sin restricciones. En Samsung: Batería → Sin restricciones.</string>
+    <string name="minus_sign" translatable="false">−</string>
+    <string name="plus_sign" translatable="false">+</string>
+    <string name="settings_height_label">Altura</string>
+    <string name="settings_height_error">Entre 50 y 250 cm</string>
+    <string name="settings_birth_date_label">Fecha de nacimiento</string>
+    <string name="settings_birth_date_empty">Elegir fecha</string>
+    <string name="settings_age">%1$d años</string>
+    <string name="settings_sex_label">Sexo (opcional)</string>
+    <string name="settings_sex_unspecified">Sin indicar</string>
+    <string name="settings_sex_male">Hombre</string>
+    <string name="settings_sex_female">Mujer</string>
+    <string name="settings_unit_label">Unidades de peso</string>
+</resources>

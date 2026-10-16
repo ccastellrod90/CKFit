@@ -1,0 +1,59 @@
+{
+  "routine": "Nivel 2",
+  "days": [
+    { "dayOfWeek": 1, "title": "Pierna A (cuádriceps) + Pantorrilla + Bíceps", "color": "#9FD33F", "optional": false,
+      "exercises": [
+        { "name": "Prensa (leg press)", "group": "Cuádriceps", "type": "REPS", "load": "STRENGTH", "sets": 4, "reps": [6, 8], "rest": [75, 90], "notes": "Pies a la anchura de los hombros; la espalda baja no se despega del respaldo abajo." },
+        { "name": "Extensión de rodilla máquina", "group": "Cuádriceps", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60] },
+        { "name": "Zancada lateral con mancuerna", "group": "Pierna", "type": "REPS", "perSide": true, "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60] },
+        { "name": "Pantorrilla máquina sentado / grada", "group": "Pantorrilla", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [15, 20], "rest": [45, 60] },
+        { "name": "Curl martillo alterno / curl barra Z", "group": "Bíceps", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60], "intensity": true },
+        { "name": "Plancha isométrica", "group": "Core", "type": "TIME", "load": "CORE", "sets": 4, "durationSec": 20, "rest": [60] },
+        { "name": "Plancha lateral", "group": "Core", "type": "TIME", "perSide": true, "load": "CORE", "sets": 3, "durationSec": 20, "rest": [60] }
+      ] },
+    { "dayOfWeek": 2, "title": "Empuje: Pecho + Hombro + Tríceps", "color": "#F28C28", "optional": false,
+      "exercises": [
+        { "name": "Press plano máquina", "group": "Pecho", "type": "REPS", "load": "STRENGTH", "sets": 4, "reps": [6, 8], "rest": [75, 90] },
+        { "name": "Press inclinado máquina", "group": "Pecho", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60] },
+        { "name": "Aperturas peck deck", "group": "Pecho", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60] },
+        { "name": "Press militar con mancuerna", "group": "Hombro", "type": "REPS", "load": "STRENGTH", "sets": 4, "reps": [6, 8], "rest": [75, 90] },
+        { "name": "Elevaciones laterales con mancuerna", "group": "Hombro", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [12, 15], "rest": [45, 60] },
+        { "name": "Copa con mancuerna sentado", "group": "Tríceps", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60], "intensity": true },
+        { "name": "Bird dog (3 s arriba)", "group": "Core", "type": "REPS", "load": "CORE", "sets": 4, "reps": [10, 10], "rest": [60] },
+        { "name": "Dead bug", "group": "Core", "type": "REPS", "perSide": true, "load": "CORE", "sets": 3, "reps": [10, 10], "rest": [60] }
+      ] },
+    { "dayOfWeek": 3, "title": "Jalón: Espalda + Hombro posterior + Bíceps", "color": "#45D9C5", "optional": false,
+      "exercises": [
+        { "name": "Jalón frontal abierto con barra", "group": "Espalda", "type": "REPS", "load": "STRENGTH", "sets": 4, "reps": [6, 8], "rest": [75, 90] },
+        { "name": "Remo horizontal estribo", "group": "Espalda", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60] },
+        { "name": "Pull over mancuerna en banca plana", "group": "Espalda", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60] },
+        { "name": "Posterior de hombro peck deck", "group": "Hombro", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [12, 15], "rest": [45, 60] },
+        { "name": "Curl inclinado con mancuerna / banco Scott", "group": "Bíceps", "type": "REPS", "load": "VOLUME", "sets": 3, "reps": [10, 12], "rest": [45, 60], "intensity": true },
+        { "name": "Leñador en polea", "group": "Core", "type": "REPS", "perSide": true, "load": "CORE", "sets": 3, "reps": [12, 12], "rest": [60], "notes": "El giro sale de la cadera, no de la cintura." },
+        { "name": "Pallof press", "group": "Core", "type": "REPS", "perSide": true, "load": "CORE", "sets": 3, "reps": [10, 10], "rest": [60] }
+      ] },
+    { "dayOfWeek": 4, "title": "Pierna B (femoral/glúteo) + Pantorrilla + Tríceps", "color": "#2BA89A", "optional": false,
+      "exercises": [
+        { "name": "Peso muerto rumano con barra", "group": "Femoral", "type": "REPS", "load": "STRENGTH", "sets": 4, "reps": [6, 8], "rest": [75, 90], "notes": "Barra pegada a las piernas, espalda recta, cadera atrás. Sin técnicas de intensidad." },
+        { "name": "Flexión de rodilla sentado", "group": "Femoral", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60] },
+        { "name": "Máquina abductor sentado", "group": "Glúteo", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [12, 15], "rest": [45, 60] },
+        { "name": "Pantorrilla máquina sentado / grada", "group": "Pantorrilla", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [15, 20], "rest": [45, 60] },
+        { "name": "Jalón en polea con cuerda", "group": "Tríceps", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [10, 12], "rest": [45, 60], "intensity": true },
+        { "name": "Plancha isométrica", "group": "Core", "type": "TIME", "load": "CORE", "sets": 4, "durationSec": 20, "rest": [60] },
+        { "name": "Bird dog (3 s arriba)", "group": "Core", "type": "REPS", "load": "CORE", "sets": 4, "reps": [10, 10], "rest": [60] }
+      ] },
+    { "dayOfWeek": 5, "title": "Opcional: Brazo dedicado", "color": "#8A9099", "optional": true,
+      "exercises": [
+        { "name": "Curl barra Z / polea baja", "group": "Bíceps", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [12, 12], "rest": [45, 60] },
+        { "name": "Curl concentrado / araña", "group": "Bíceps", "type": "REPS", "load": "VOLUME", "sets": 3, "reps": [12, 12], "rest": [45, 60] },
+        { "name": "Press francés barra Z / mancuerna", "group": "Tríceps", "type": "REPS", "load": "VOLUME", "sets": 4, "reps": [12, 12], "rest": [45, 60] },
+        { "name": "Fondos en banco / extensión en polea", "group": "Tríceps", "type": "REPS", "load": "VOLUME", "sets": 3, "reps": [12, 12], "rest": [45, 60] },
+        { "name": "Elevaciones laterales con mancuerna", "group": "Hombro", "type": "REPS", "load": "VOLUME", "sets": 3, "reps": [15, 15], "rest": [45, 60], "notes": "Si sobra tiempo." }
+      ] },
+    { "dayOfWeek": 6, "title": "Opcional: Cardio", "color": "#45D9C5", "optional": true,
+      "exercises": [
+        { "name": "Cardio moderado bajo impacto", "group": "Cardio", "type": "TIME", "load": "CARDIO", "sets": 1, "durationSec": 2700, "rest": [0] }
+      ] },
+    { "dayOfWeek": 7, "title": "Descanso", "restDay": true, "exercises": [] }
+  ]
+}
